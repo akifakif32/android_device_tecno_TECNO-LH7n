@@ -22,6 +22,10 @@ BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_PREBUILT_ELF_FILES := true
 
+# Init
+TARGET_INIT_VENDOR_LIB := libinit_TECNO_pova5
+TARGET_RECOVERY_DEVICE_MODULES := libinit_TECNO_pova5
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
@@ -214,7 +218,7 @@ TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
 # Maintainer/Version
-TW_DEVICE_VERSION := perilouspike
+TW_DEVICE_VERSION := perilouspike-akifakif32
 
 # Use Toolbox instead of Busybox
 TW_USE_TOOLBOX := true
